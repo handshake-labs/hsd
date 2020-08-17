@@ -51,6 +51,8 @@ by its hash or height.
 - Adds new wallet rpc `importname` that enables user to "watch" a name and track
 its auction progress without bidding on it directly.
 
+- wallet rpc getnames now accepts a boolean parameter "own" (default false) that filters out names the wallet does not own
+
 ### Wallet changes
 
 - A bug was fixed that prevented reserved names that had been CLAIMed from
